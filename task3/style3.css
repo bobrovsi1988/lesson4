@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 10px;
+
+}
+.second{
+    height: 200px;
+    flex-direction: column;
+}
+.wraper{
+    flex-wrap: wrap;
+}

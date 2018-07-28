@@ -1,0 +1,15 @@
+section{
+    display: flex;
+    height: 500px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.first, .five{
+    align-self: flex-end;
+}
+.second, .fourth{
+    align-self: center;
+}
